@@ -1,3 +1,12 @@
+/*
+ * Author: Sam Henry
+ * Date: January 1, 2019
+ * 
+ * Disjoint set implementation.
+ * Path compression and union by rank.
+ * Complexity: O(logn) for find/merge
+ */
+
 #include <algorithm>
 #include <iostream>
 using namespace std;

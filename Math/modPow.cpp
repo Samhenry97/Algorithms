@@ -1,3 +1,11 @@
+/*
+ * Author: Sam Henry
+ * Date: January 1, 2019
+ * 
+ * Modular power.
+ * Complexity: O(log exp)
+ */
+
 #include <iostream>
 using namespace std;
 

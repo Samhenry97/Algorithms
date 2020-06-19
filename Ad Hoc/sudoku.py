@@ -1,3 +1,15 @@
+"""
+Author: Sam Henry
+Date: June 1, 2020
+
+Sudoku solver using DFS.
+Uses sets for rows/columns/blocks.
+
+Input consists two things:
+* n: n^2 x n^2 grid (3 is a standard puzzle)
+* n^2 lines of integers in the range [0, n^2] describing the grid
+"""
+
 size = int(input())
 n = size*size
 grid = [list(map(int, input().split())) for _ in range(n)]
